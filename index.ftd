@@ -59,18 +59,7 @@ padding.px: 50
 margin.px: 5
 
 -- ftd.text: SKILLS-
-role: $inherited.types.heading-medium\
-
-;; -- ftd.ui list skils:
-
-;; -- ftd.text: HTML
-;; -- ftd.text: CSS
-;; -- ftd.text: JS
-;; -- ftd.text: ReactJS
-;; -- ftd.text: Figma
-
-;; -- end: skils
-
+role: $inherited.types.heading-medium
 -- end: ftd.row 
 
 -- end: ftd.column
