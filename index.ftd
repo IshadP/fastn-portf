@@ -1,0 +1,76 @@
+;; -- ftd.row:
+;; spacing.fixed.vw: 40
+;; border-width.px: 5
+;; border-radius.px: 100
+;; padding.px: 5
+;; margin.px: 10
+;; width.fixed.px: 1900
+
+;; -- ftd.text: Home
+
+;; -- ftd.text: IshadP
+
+;; -- ftd.text: Back
+
+;; -- end: ftd.row
+
+-- ftd.row:
+align-self: center
+spacing: space-between
+margin.px: 10
+width.fixed.px: 1900
+
+-- ftd.image: 
+src: /img/download.jpg
+width.fixed.px: 128
+height.fixed.px: 128
+border-width.px: 2
+border-radius.px: 100
+margin.px: 5
+
+-- ftd.column:
+spacing.fixed.px: 50
+
+-- ftd.text: IshadP
+role: $inherited.types.heading-large
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+-- ftd.column:
+height.fixed.px: 1000
+
+-- ftd.row:
+border-width.px: 5
+border-radius.px: 20
+padding.px: 50
+margin.px: 5
+
+-- ftd.text: I am a passionate web designer/developer , who likes to explore and create unique design styles!
+
+-- end: ftd.row
+
+-- ftd.row:
+border-width.px: 5
+border-radius.px: 20
+padding.px: 50
+margin.px: 5
+
+-- ftd.text: SKILLS-
+role: $inherited.types.heading-medium\
+
+;; -- ftd.ui list skils:
+
+;; -- ftd.text: HTML
+;; -- ftd.text: CSS
+;; -- ftd.text: JS
+;; -- ftd.text: ReactJS
+;; -- ftd.text: Figma
+
+;; -- end: skils
+
+-- end: ftd.row 
+
+-- end: ftd.column
